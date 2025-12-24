@@ -18,7 +18,6 @@
 
 
 .hero-inner {
-    max-width: 1152px;
     margin: 0 auto;
     padding-top: 160px;
     display: grid;
@@ -128,7 +127,7 @@
 
 
 .about-us-title {
-    font-size: 28px;
+    font-size: 48px;
     font-weight: 600;
     color: #e53935; /* red title */
     margin-bottom: 16px;
@@ -145,10 +144,9 @@
 }
 
 .about-us-info {
-    font-size: 14.5px;
+    font-size: 20px;
     line-height: 1.8;
-    color: #333333;
-    max-width: 900px;
+    color: #3F3F47;
 }
 
 .about-us-info br {
@@ -166,14 +164,10 @@
  
 }
 
-.our-mission {
-    margin-bottom: var(--space-md);
-}
-
 .mission-visionh2 {
-    font-size: var(--fs-xs);
+    font-size: 48px;
     font-weight: 600;
-    line-height: 44px;
+    line-height: 48px;
     color: #FFFFFF;
     margin: 0 0 16px;
     position: relative;
@@ -192,10 +186,11 @@
 
 .our-mission-info,
 .our-vision-info {
-    font-size: var(--fs-xs);
+    font-size: 20px;
     line-height: 26px;
-    color: #D4D4D8;
+    color: #9F9FA9;
     margin: 0;
+    padding: 5px;
 }
 
 .dubai-section {
@@ -204,22 +199,18 @@
   padding: var(--space) 0;
 }
 
-.dubai-hub {
-  max-width: 720px;
-  margin-bottom: 80px;
-}
 
 .dubai-hub h2 {
-  font-size: var(--fs-md);
+  font-size: 48px;
   font-weight: 600;
   color: #e50914;
   margin-bottom: 24px;
 }
 
 .dubai-hub-info {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.8;
-  color: #4b5563;
+  color: #3F3F47;
 }
 
 .hub-features {
@@ -247,8 +238,8 @@
 }
 
 .hub-icon {
-  width: 72px;
-  height: 72px;
+  width: 153px;
+  height: 153px;
   border: 1px solid #d1d5db;
   border-radius: 50%;
   margin: 0 auto 24px;
@@ -261,18 +252,17 @@
 }
 
 .badge {
-  position: absolute;
-  bottom: -6px;
-  right: -6px;
-  width: 22px;
-  height: 22px;
-  background: #e50914;
-  color: #fff;
-  font-size: 11px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: absolute;
+    bottom: -6px;
+    width: 35px;
+    height: 23px;
+    background: #e50914;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hub-item h4 {
@@ -284,7 +274,7 @@
 .hub-item p {
   font-size: 13px;
   line-height: 1.7;
-  color: #6b7280;
+  color: #9F9FA9;
   max-width: 260px;
   margin: 0 auto;
 }
@@ -699,7 +689,12 @@
 }
 
 .section-inner{
-  padding: var(--space-md);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 100px 180px;
+gap: 40px;
 }
 
 .section-tag {
@@ -787,7 +782,7 @@
 }
 .our-team {
     position: relative;
-    min-height: 420px;
+    min-height: 571px;
     background: url("/assets/media/team.png") no-repeat right center;
     background-size: 45% 100%;
 }
@@ -802,13 +797,14 @@
     background: rgba(255, 255, 255, 0.83);
     z-index: 0;
 }
+
 .our-team-inner {
     position: relative;
     z-index: 1;
-    max-width: 1152px;
-    padding: 5%;
+    padding: 160px 180px;
     align-items: center;
 }
+
 .our-team h2 {
     font-size: 32px;
     font-weight: 600;
