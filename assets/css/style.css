@@ -214,19 +214,17 @@
     background-color: #e53935;
     margin-top: 6px;
 }
-/* =========================
-   BASE FADE-UP ANIMATION
-========================= */
-.about-us .fade-up {
+.fade-up {
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-.about-us .fade-up.show {
+.fade-up.show {
   opacity: 1;
   transform: translateY(0);
 }
+
 
 .about-us-info {
     font-size: 20px;
